@@ -5,7 +5,8 @@ const jwtTokens = require("../utils/jwtManager")
 const jwt = require('jsonwebtoken');
 const cookieParser = require('cookie-parser')
 const cors = require('cors');
-//redis + session express configurtion
+
+//redis + session express configuration
 const Redis = require("redis")
 const session = require("express-session")
 const redisStore = require("connect-redis")(session)
